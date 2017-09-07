@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>JuKebox Starter Kit</title>
+    <link rel="stylesheet" type="text/css" >
+</head>
+<body>
+    <h1>Click on the song or press play</h1>
+
+    <div id="button">
+        <button id="play">Play</button>
+        <button id="pause">Pause</button>
+        <button id="stop">Stop</button>
+        <input type=text value='All_or_nothing.mp3'>
+        <button id="load">Add a song</button>
+    </div>
+
+    <div>
+        <audio id="playa" controls="controls">
+             <source id="song" src="" type="audio/mp3">
+        </audio>
+    </div>
+    <div>
+        <button id="shuffle">Shuffle</button>
+    </div>
+    <ol id="playlist">
+
+    </ol>
+
+<script type="text/javascript" src="jukebox.js"></script>
+
+</body>
+</html>
